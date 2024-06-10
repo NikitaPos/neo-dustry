@@ -1,6 +1,7 @@
 {
-    "name": "[black]Neo-Dustry",
-    "author": "[blue]NikitaPos",
+    "displayName": "[cyan]Neo-Dustry",
+    "name": "Neo-Dustry",
+    "author": "NikitaPos",
     "description": "Mindustry mod.",
     "version": "0.1",
     "minGameVersion": "136"
