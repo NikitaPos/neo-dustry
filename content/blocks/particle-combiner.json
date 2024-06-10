@@ -1,5 +1,5 @@
 {
-  "type": "GenericSmelted",
+  "type": "GenericCrafter",
   "name": "Particle Combiner",
   "description": "Combine hard particles in kibernetical ingot",
   "outputitem": {"item": "kibernetikal-ingot", "amount": 1},

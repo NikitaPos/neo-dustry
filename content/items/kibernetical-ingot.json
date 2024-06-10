@@ -4,6 +4,6 @@
     "description":"Very rare material which can be crafted on partical combiner",
     "hardness": 3,
     "cost": 2.0,
-    "color": "000000",
+    "color": "#F1CA06",
     "tier": 2
 }
