@@ -10,5 +10,5 @@
         {"item": "metaglass", "amount": 5}
     ],
     "category": "defense",
-    "research": "plastanium_wall"
+    "research": "plastanium-wall"
 }
