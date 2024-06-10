@@ -1,0 +1,29 @@
+{
+  "type": "GenericSmelted",
+  "name": "Particle Combiner",
+  "description": "Combine hard particles in kibernetical ingot",
+  "outputitem": {"item": "kibernetikal-ingot", "amount": 1},
+  "size": 2,
+  "hasPower": true,
+  "hasItems": false,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 100
+    "items": {
+      "items": [
+        { "item": "surge-alloy", "amount":5 },
+        { "item": "thorium", "amount":5 }
+      ]
+    }
+  },
+ "requirements": [
+    { "item": "silicon", "amount":700 },
+    { "item": "surge-alloy", "amount":500 },
+    { "item": "thorium", "amount":300 },
+   ],
+   "category": "crafting",
+   "research": "surge-smelter",
+   "idleSound": "respawning",
+   "idleSoundVolume": 0.5,
+}
