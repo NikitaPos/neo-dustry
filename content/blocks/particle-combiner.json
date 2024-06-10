@@ -9,7 +9,7 @@
   "craftTime": 120,
   "updateEffect": "smeltsmoke",
   "consumes": {
-    "power": 100
+    "power": 100,
     "items": {
       "items": [
         { "item": "surge-alloy", "amount":5 },
@@ -20,10 +20,10 @@
  "requirements": [
     { "item": "silicon", "amount":700 },
     { "item": "surge-alloy", "amount":500 },
-    { "item": "thorium", "amount":300 },
+    { "item": "thorium", "amount":300 }
    ],
    "category": "crafting",
    "research": "surge-smelter",
    "idleSound": "respawning",
-   "idleSoundVolume": 0.5,
+   "idleSoundVolume": 0.5
 }
