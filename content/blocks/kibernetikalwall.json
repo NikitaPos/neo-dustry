@@ -5,7 +5,7 @@
     "health": 6000,
     "size": 2,
     "requirements": [
-        {"item": "kibernetikal-ingot", "amount": 24}
+        {"item": "kibernetical-ingot", "amount": 24}
     ],
     "category": "defense",
     "research": "combinedwall"
