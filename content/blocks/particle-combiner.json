@@ -5,11 +5,11 @@
   "outputitem": {"item": "kibernetikal-ingot", "amount": 1},
   "size": 2,
   "hasPower": true,
-  "hasItems": false,
+  "hasItems": true,
   "craftTime": 120,
   "updateEffect": "smeltsmoke",
   "consumes": {
-    "power": 100,
+    "power": 10,
     "items": {
       "items": [
         { "item": "surge-alloy", "amount":5 },
