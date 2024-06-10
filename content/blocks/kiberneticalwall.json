@@ -5,8 +5,8 @@
     "health": 6000,
     "size": 2,
     "requirements": [
-        {"item": "kibernetical-ingot", "amount": 24}
+        {"item": "kibernetikal-ingot", "amount": 24}
     ],
     "category": "defense",
-    "research": "plastanium-wall"
+    "research": "combinedwall"
 }

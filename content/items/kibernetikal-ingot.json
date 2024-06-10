@@ -1,5 +1,9 @@
 {
     "type": "material",
     "name": "Kibernetical ingot",
-    "description":"Very rare material which can be crafted on partical combiner"
+    "description":"Very rare material which can be crafted on partical combiner",
+    "hardness": 3,
+    "cost": 2.0,
+    "color": "000000",
+    "tier": 2
 }
