@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Particle Combiner",
   "description": "Combine hard particles in kibernetical ingot",
-  "outputitem": {"item": "kibernetikal-ingot", "amount": 1},
+  "outputitem": {"item": "kibernetical-ingot", "amount": 1},
   "size": 2,
   "hasPower": true,
   "hasItems": true,
