@@ -2,5 +2,6 @@
     "name": "Neo-Dustry",
     "author": "NikitaPos",
     "description": "Mindustry mod.",
-    "version": "0.1"
+    "version": "0.1",
+    "minGameVersion": "136"
 }
