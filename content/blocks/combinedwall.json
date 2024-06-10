@@ -6,7 +6,8 @@
     "size": 2,
     "requirements": [
         {"item": "plastanium", "amount": 10},
-        {"item": "titanium", "amount": 10}
+        {"item": "titanium", "amount": 10},
+        {"item": "metaglass", "amount": 5}
     ],
     "category": "defense",
     "research": "Plastanium Wall"
