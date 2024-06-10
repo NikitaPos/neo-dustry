@@ -2,7 +2,7 @@
     "name": "Combined Wall",
     "description": "Wall made of different resources.",
     "type": "Wall",
-    "health": 3000,
+    "health": 3500,
     "size": 2,
     "requirements": [
         {"item": "plastanium", "amount": 10},
