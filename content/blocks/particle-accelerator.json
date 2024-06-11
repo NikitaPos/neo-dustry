@@ -25,6 +25,6 @@
      "research": "surge-smelter",
      "idleSound": "respawning",
      "idleSoundVolume": 0.5,
-     "outputItem": "plastanium/20"
+     "outputItem": "plastanium/5"
   }
   
