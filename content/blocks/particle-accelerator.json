@@ -4,7 +4,7 @@
     "description": "Turn kibernetical ingot in other things.",
     "size": 3,
     "hasPower": true,
-    "hasItems": true,
+    "hasItems": false,
     "craftTime": 120,
     "updateEffect": "smeltsmoke",
     "consumes": {
