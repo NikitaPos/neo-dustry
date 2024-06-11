@@ -4,6 +4,7 @@ author: "NikitaPos"
 version: "v0.3.1"
 minGameVersion: "136"
 repo: "NikitaPos/neo-dustry"
+java: false
 
 description:
 "
