@@ -1,0 +1,10 @@
+name: "neo-dustry"
+displayName: "Neo-Dustry"
+author: "NikitaPos"
+version: "v0.3.1"
+minGameVersion: "136"
+repo: "NikitaPos/neo-dustry"
+description:
+"
+Mindustry mod that adds some things.
+"
