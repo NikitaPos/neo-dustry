@@ -1,0 +1,11 @@
+localizedName: Bunker
+description: 
+''' 
+   Small sector that show mechanics of game.
+''' 
+captureWave: 5
+planet: atlantis
+sector: 1
+research: Bunker
+difficulty: 1
+alwaysUnlocked: true

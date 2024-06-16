@@ -1,0 +1,18 @@
+localizedName: Base
+description: 
+'''
+  Enemy found your secret base. Can you defend it?
+'''
+captureWave: 15
+difficulty: 2
+planet: atlantis
+sector: 3
+research: {
+  parent: Base
+  objectives: [
+    {
+      type: SectorComplete
+      preset: Lake
+    }
+  ]
+}
