@@ -1,0 +1,120 @@
+{
+        "type": "flying",
+        "localizedName": "Anarchist",
+	    "description": "???",
+        "speed": 1,
+        "accel": 0.1,
+        "drag": 0.05,
+        "flying": true,
+        "health": 5500,
+        "armor": 10,
+        "engineOffset": 17,
+		"engineSize": 6,
+		"TargetAir": true,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+	    "weapons": [
+			{
+				"name": "",
+				"mirror": true,
+				"alternate": true,
+				"top": false,
+				"rotate": false,
+				"x": 15,
+				"y": 10,
+				"reload": 5,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				},
+				"inaccuracy": 10
+				"shootSound": "bolt",
+				"recoil": 10,
+				"bullet": {
+					"type": "BasicBulletType",
+					"sprite": "laser",
+					"damage": 20,
+				"keepVelocity": "true",
+				"speed": 6,
+				"lifetime": 40,
+				"width": 1,
+				"height": 20,
+				"backColor": "#ff1100",
+				"frontColor": "#FFFFFF",
+				"shrinkY": 0.5,
+				"trailLength": 3,
+				"trailWidth": 1,
+				"trailColor": "#fc2626",
+						}
+			},
+			{
+				"name": "anarchist-missilelauncher",
+				"mirror": true,
+				"alternate": true,
+				"top": true,
+				"rotate": true,
+				"x": 9.5,
+				"y": 10,
+				"reload": 45,
+				"shoot": {
+					"shots": 3,
+					"shotDelay": 2
+				},
+				"inaccuracy": 0
+				"shootSound": "missile",
+				"recoil": 2,
+				"bullet": {
+					"type": "MissileBulletType",
+					"sprite": "missile",
+					"damage": 30,
+				"keepVelocity": "true",
+				"speed": 5,
+				"lifetime": 40,
+				"width": 10,
+				"height": 15,
+				"backColor": "#ff5242",
+				"frontColor": "#FFFFFF",
+				"shrinkY": 0.5,
+				"trailLength": 6,
+				"trailWidth": 1,
+				"trailColor": "#ff5242",
+				"splashDamageRadius": 5,
+				"splashDamage": 5,
+				"weaveMag": 4,
+				"weaveScale": 4,
+						}
+			},
+			{
+				"name": "anarchist-cannon",
+				"mirror": true,
+				"alternate": true,
+				"top": true,
+				"rotate": true,
+				"x": 11,
+				"y": -5,
+				"reload": 20,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				},
+				"inaccuracy": 0
+				"recoil": 2,
+				"bullet": {
+					"type": "BasicBulletType",
+					"sprite": "bullet",
+					"damage": 10,
+				"keepVelocity": "true",
+				"speed": 8,
+				"lifetime": 50,
+				"width": 7,
+				"height": 10,
+				"backColor": "#fa6c5f",
+				"frontColor": "#FFFFFF",
+				"shrinkY": 0.5,
+				"trailLength": 6,
+				"trailWidth": 2,
+				"trailColor": "#fa6c5f",
+						}
+			}
+	]
+}

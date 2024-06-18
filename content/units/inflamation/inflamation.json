@@ -1,0 +1,54 @@
+{
+        "type": "flying",
+        "localizedName": "Inflamation",
+	    "description": "???",
+        "speed": 4,
+        "accel": 0.05,
+        "drag": 0.01,
+        "flying": true,
+        "health": 300,
+        "armor": 3,
+        "engineOffset": 6,
+		"engineSize": 2,
+		"TargetAir": true,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+		"trailLength": 10,
+	    "weapons": [
+			{
+				"name": "",
+				"mirror": false,
+				"alternate": false,
+				"top": false,
+				"rotate": false,
+				"x": 0,
+				"y": -3,
+				"reload": 10,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+	"inaccuracy": 0
+    "shootSound": "bolt",
+    "recoil": 10,
+    "bullet": {
+		"type": "BasicBulletType",
+		"sprite": "laser",
+        "damage": 20,
+	"keepVelocity": "false",
+	"speed": 6,
+	"lifetime": 40,
+	"width": 1,
+	"height": 20,
+        "backColor": "#ff1100",
+        "frontColor": "#FFFFFF",
+        "shrinkY": 0.5,
+        "trailLength": 3,
+		"trailWidth": 1,
+        "trailColor": "#fc2626",
+		"splashRadius": 5,
+		"splashDamage": 5,
+			}
+		}
+	]
+}

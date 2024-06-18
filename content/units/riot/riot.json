@@ -1,0 +1,54 @@
+{
+        "type": "mech",
+        "localizedName": "Riot",
+	    "description": "???",
+        "speed": 1.1,
+        "accel": 0.1,
+        "drag": 0.5,
+        "health": 1000,
+        "armor": 2,
+		"TargetAir": true,
+        "outlineColor": "#2d2f39",
+		"mechStepParticles": true,
+	    "weapons": [
+			{
+				"name": "riot-weapon",
+				"mirror": true,
+				"alternate": true,
+				"top": false,
+				"rotate": false,
+				"x": -6.5,
+				"y": 0,
+				"reload": 30,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+	"inaccuracy": 0
+    "shootSound": "artillery",
+    "recoil": 2,
+    "bullet": {
+		"type": "BasicBulletType",
+		"sprite": "bullet",
+        "damage": 70,
+		"keepVelocity": "true",
+		"speed": 2,
+		"lifetime": 50,
+		"width": 7,
+		"height": 12,
+        "backColor": "#ff7f65",
+        "frontColor": "#FFFFFF",
+        "shrinkY": 1,
+        "trailLength": 7,
+        "trailColor": "#ff7f65",
+		"fragOnHit": true,
+		"fragBullets": 3,
+		"pierce": true,
+		"pierceBuildings": true,
+		"splashDamageRadius": 30,
+		"splashDamage": 20,
+		"hitEffect": "blastExplosion",
+			}
+		}
+	]
+}
