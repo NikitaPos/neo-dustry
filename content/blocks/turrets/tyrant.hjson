@@ -1,0 +1,43 @@
+type: ItemTurret
+localizedName: Tyrant
+description: A very heavy turret for ambushing weak folks, using principally heavy lead rounds
+requirements: [
+    basalt/15
+    silicon/30
+]
+size: 1
+range: 100
+health: 270
+targetAir: true
+targetGround: true
+shootSound: blaster
+reload: 50
+ammoTypes: {
+ lead:
+ {
+ type: BasicBulletType
+ speed: 8
+ width: 14
+ height: 16
+ damage: 50
+ lifetime: 75
+ trailWidth: 4
+ trailLength: 10
+ } 
+titanium:
+ {
+ type: BasicBulletType
+ speed: 6
+ width: 15
+ height: 18
+ damage: 75
+ lifetime: 65
+ trailWidth: 5
+ trailLength: 12
+ trailColor: 4d91ff
+ frontColor: FFFFFF
+ backColor: 4d91ff
+ } 
+}
+category: turret
+research: hail

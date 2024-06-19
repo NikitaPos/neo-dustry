@@ -1,0 +1,58 @@
+type: ItemTurret
+localizedName: Didymophobia
+description: A twin cannon, shoots bursts of titanium rounds at long range
+requirements: [
+    basalt/150
+    silicon/200
+    titanium/65
+    plastanium/100
+]
+size: 3
+range: 150
+health: 270
+targetAir: true
+targetGround: true
+shootSound: shootAlt
+reload: 2
+shoot: {
+	type: shootAlternate
+        shots: 1
+        spread: 9
+} 
+ammoTypes: {
+ titanium:
+ {
+ type: BasicBulletType
+ speed: 9
+ width: 10
+ height: 15
+ damage: 25
+ lifetime: 100
+ trailWidth: 3
+ trailLength: 3
+ trailColor: 4d91ff
+ frontColor: FFFFFF
+ backColor: 4d91ff
+ } 
+ surge-alloy:
+ {
+ type: BasicBulletType
+ speed: 9
+ width: 10
+ height: 15
+ damage: 55
+ lifetime: 100
+ trailWidth: 3
+ trailLength: 3
+ trailColor: fcc11e
+ frontColor: FFFFFF
+ backColor: fcc11e
+ lightningColor: fcc11e
+ lightning: 5
+ lightningLength: 3
+ lightningLengthRand: 9
+ lightningDamage: 10
+ } 
+}
+category: turret
+research: tyrant

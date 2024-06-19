@@ -11,6 +11,7 @@
         "engineOffset": 17,
 		"engineSize": 6,
 		"TargetAir": true,
+		"rotateSpeed": 3,
         "circleTarget": true,
         "outlineColor": "#2d2f39",
 	    "weapons": [
