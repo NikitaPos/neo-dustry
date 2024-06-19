@@ -1,2 +1,2 @@
 # neo-dustry
-## Stealing sprites not allowed!
+## Stealing sprites, music, stuff not allowed!
