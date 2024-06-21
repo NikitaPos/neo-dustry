@@ -1,0 +1,12 @@
+localizedName: Laboratory
+description: 
+''' 
+  You land on Asthosus and find yourself in a small ravine devoid of life and resources. 
+  Can you really conquer this planet?
+''' 
+captureWave: 15
+planet: atlantis
+sector: 0
+research: core-office
+difficulty: 1
+alwaysUnlocked: true

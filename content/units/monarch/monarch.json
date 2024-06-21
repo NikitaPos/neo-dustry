@@ -1,0 +1,52 @@
+{
+        "type": "mech",
+        "localizedName": "Monarch",
+	    "description": "???",
+        "speed": 0.9,
+        "accel": 0.1,
+        "drag": 0.5,
+        "health": 1000,
+        "armor": 2,
+		"TargetAir": true,
+        "outlineColor": "#2d2f39",
+		"mechStepParticles": true,
+	    "weapons": [
+			{
+				"name": "monarch-gun",
+				"mirror": true,
+				"alternate": true,
+				"top": false,
+				"x": -10,
+				"y": 0,
+				"reload": 60,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				}
+				"inaccuracy": 0,
+				"shootSound": "dullExplosion",
+				"recoil": 3,
+				"bullet": {
+					"type": "BasicBulletType",
+					"sprite": "missile-large",
+					"damage": 150,
+					"keepVelocity": "true",
+					"speed": 12,
+					"lifetime": 70,
+					"width": 7,
+					"height": 10,
+					"backColor": "#ff7f65",
+					"frontColor": "#FFFFFF",
+					"shrinkY": 1,
+					"trailLength": 15,
+					"trailColor": "#ff7f65",
+					"pierce": true,
+					"pierceBuildings": true,
+					"hitEffect": "blastExplosion",
+					"trailEffect": "hitSquaresColor"
+					"trailRotation": true,
+					"trailInterval": 3,
+						}
+			}
+	]
+}
