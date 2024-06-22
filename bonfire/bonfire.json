@@ -1,0 +1,45 @@
+{
+        "type": "mech",
+        "localizedName": "Bonfire",
+	    "description": "???",
+        "speed": 2,
+        "accel": 0.05,
+        "drag": 0.2,
+        "health": 450,
+        "armor": 5,
+		"TargetAir": true,
+        "outlineColor": "#2d2f39",
+		"mechStepParticles": true,
+	    "weapons": [
+			{
+				"name": "bonfire-gun",
+				"mirror": true,
+				"alternate": false,
+				"top": false,
+				"layerOffset": -0.001,
+				"outline": false,
+				"rotate": false,
+				"x": 5,
+				"y": 1,
+				"reload": 30,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				}
+	"inaccuracy": 0
+    "shootSound": "laser",
+	"shootEffect": "shockwave",
+    "recoil": 3,
+    "bullet": {
+		"type": "LaserBulletType",
+        "damage": 40,
+		"lifetime": 20,
+		"width": 15,
+		"sideAngle": 45,
+		"sideWidth": 1,
+		"length": 140,
+		"colors": ["#DE2F2F66", "#DE2F2F", "#FFFFFF"] 
+			}
+		}
+	]
+}
