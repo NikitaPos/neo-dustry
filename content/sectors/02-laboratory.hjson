@@ -1,0 +1,11 @@
+localizedName: Laboratory
+description: 
+''' 
+  ...
+''' 
+captureWave: 15
+planet: atlantis
+sector: 1
+research: core-office
+difficulty: 2
+alwaysUnlocked: true

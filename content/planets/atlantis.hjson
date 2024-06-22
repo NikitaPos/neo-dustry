@@ -128,7 +128,7 @@ allowWaves: true
 # Icon's name displayed in top-left dialog.
 icon: planet
 # Default core block for launch loadouts.
-defaultCore: core-nucleus
+defaultCore: core-office
 # The parent of the planet.
 parent: serpulo
 # The parent of the whole solar system the planet is in. Affects lighting.
@@ -142,5 +142,5 @@ launchCandidates: []
 #]
 # Only items available in this planet. Recommended over hiddenItems.
 itemWhitelist: [
- 
+ basalt
 ]

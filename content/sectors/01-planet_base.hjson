@@ -1,0 +1,11 @@
+localizedName: Planet Base
+description: 
+''' 
+  ...
+''' 
+captureWave: 15
+planet: atlantis
+sector: 0
+research: core-office
+difficulty: 1
+alwaysUnlocked: true
