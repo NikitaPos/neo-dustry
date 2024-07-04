@@ -6,6 +6,6 @@
 # NEO-DUSTRY
 ## Mindustry v7 mod which add new planet, units, blocks, items.
 ## Stealing sprites, music and etc. not allowed!
-## Screenshots:
+## Screenshots: (https://cdn.discordapp.com/attachments/1252327125533593600/1258424347773767771/image.png?ex=6687fe80&is=6686ad00&hm=f8297a2ec7bfcb0d9196210a1276c6ab775a402a7596ed712a7cc4587c50bbdd&)
 
 # Made by NikitaPos and NagyDoesStuff
