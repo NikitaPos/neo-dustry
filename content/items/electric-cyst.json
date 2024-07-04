@@ -1,9 +1,0 @@
-{
-    "type": "material",
-    "name": "Electric Cyst",
-    "description": "A fossilized organic membrane that contains energy.",
-    "hardness": 1,
-    "cost": 2.0,
-    "color": "#eb5234",
-    "tier": 1
-}

@@ -1,9 +1,0 @@
-{
-    "type": "material",
-    "name": "Basalt",
-    "description": "What remains of the ancient battleships.",
-    "hardness": 1,
-    "cost": 2.0,
-    "color": "#43434f",
-    "tier": 1
-}
