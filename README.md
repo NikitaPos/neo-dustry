@@ -1,4 +1,4 @@
-![GitHub all releases](https://img.shields.io/github/downloads/{username}/{repo-name}/total)
+![GitHub all releases](https://img.shields.io/github/downloads/{NikitaPos}/{neo-dustry}/total)
 ![GitHub language count](https://img.shields.io/github/languages/count/{username}/{repo-name})
 ![GitHub top language](https://img.shields.io/github/languages/top/{username}/{repo-name}?color=yellow)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/{username}/{repo-name})
