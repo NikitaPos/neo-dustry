@@ -4,3 +4,8 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/NikitaPos/neo-dustry)
 ![GitHub Repo stars](https://img.shields.io/github/stars/NikitaPos/neo-dustry?style=social)
 # NEO-DUSTRY
+## Mindustry v7 mod which add new planet, units, blocks, items.
+## Stealing sprites, music and etc. not allowed!
+## Screenshots:
+
+# Made by NikitaPos and NagyDoesStuff
