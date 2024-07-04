@@ -1,0 +1,52 @@
+{
+        "type": "flying",
+        "localizedName": "C.E.O",
+	    "description": "???",
+        "speed": 1.2,
+        "accel": 0.1,
+        "drag": 0.05,
+		"mineSpeed": 15,
+        "mineTier": 4,
+        "buildSpeed": 1,
+        "flying": true,
+		"isEnemy": false,
+        "health": 1300,
+        "armor": 3,
+        "engineOffset": 10,
+		"engineSize": 5,
+		"TargetAir": true,
+		"trailLength": 20,
+		"trailWidth": 20,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+	    "weapons": [
+			{
+				"name": "",
+				"mirror": false,
+				"alternate": false,
+				"top": false,
+				"rotate": false,
+				"x": 0,
+				"y": 4,
+				"reload": 200,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+			"inaccuracy": 0
+			"shootSound": "laser",
+			"shootEffect": "shockwave",
+			"recoil": 0,
+			"bullet": {
+				"type": "LaserBulletType",
+				"damage": 200,
+				"lifetime": 40,
+				"width": 30,
+				"sideAngle": 45,
+				"sideWidth": 1,
+				"length": 140,
+				"colors": ["#ffd37f66", "#ffd37f", "#FFFFFF"] 
+					}
+				}
+	]
+}

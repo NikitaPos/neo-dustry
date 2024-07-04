@@ -1,0 +1,3 @@
+type: OreBlock
+wallOre: false
+itemDrop: electric-cyst

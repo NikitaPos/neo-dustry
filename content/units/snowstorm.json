@@ -1,0 +1,112 @@
+{
+        "type": "flying",
+        "localizedName": "Snowstorm",
+	    "description": "???",
+        "speed":1,
+        "accel": 0.05,
+        "drag": 0.01,
+        "flying": true,
+        "health": 4250,
+		"hitSize": 33,
+        "armor": 3,
+        "engineOffset": 17,
+		"engineSize": 6,
+		"TargetAir": true,
+		"rotateSpeed": 2,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+	    "weapons": [
+			{
+				"name": "snowstorm-gun",
+				"mirror": true,
+				"alternate": true,
+				"top": false,
+				"rotate": false,
+				"x": 13,
+				"y": 13.5,
+				"reload": 5,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				}
+			"inaccuracy": 0
+			"shootSound": "flame",
+			"recoil": 3,
+			"bullet": {
+				"type": "BasicBulletType",
+				"damage": 30,
+				"keepVelocity": "false",
+				"speed": 8,
+				"lifetime": 17,
+				"width": 0,
+				"height": 0,
+				"hitSize": 7,
+				"pierce": true,
+				"pierceBuilding": true,
+				"hitEffect": "none",
+				"despawnEffect": "none",
+				"shootEffect": {
+					"type": "ParticleEffect",
+					"cone": 10,
+					"length": 200,
+					"particles": 30,
+					"colorFrom": "#FFFFFF",
+					"colorTo": "#52d7ff",
+					},
+				}
+			},
+			{
+				"name": "snowstorm-topgun",
+				"mirror": false,
+				"alternate": false,
+				"top": true,
+				"rotate": true,
+				"x": 0,
+				"y": 0,
+				"reload": 200,
+				"rotateSpeed": 3,
+				"shootWarmup": 0.1,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+				}
+			"inaccuracy": 0
+			"shootSound": "artillery",
+			"recoil": 2,
+			"bullet": {
+				"type": "BasicBulletType",
+				"damage": 200,
+				"keepVelocity": "false",
+				"speed": 1,
+				"sprite": "large-bomb",
+				"lifetime": 100,
+				"width": 30,
+				"height": 30,
+				"knockback": 5,
+				"shrinkY": 0,
+				"spin": 5,
+				"frag": true,
+				"fragBullets": 50,
+                "smokeEffect": "shootSmokeTitan",
+				"fragBullet": {
+					"frontColor": "#ffffff",
+					"backColor": "#52d7ff",
+					"speed": 3,
+					"width": 10,
+					"height": 10,
+					"sprite": "large-bomb",
+					"spin": 30,
+					"damage": 30,
+					"shrinkY": 0,
+					"knockback": 5,
+				},
+				"frontColor": "#ffffff",
+				"backColor": "#52d7ff",
+				"trailLength": 25,
+				"trailWidth": 6,
+				"trailColor": "#52d7ff",
+				"hitEffect": "blastExplosion",
+				}
+			}
+	]
+}

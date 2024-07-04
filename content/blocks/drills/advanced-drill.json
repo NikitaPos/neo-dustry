@@ -1,0 +1,19 @@
+{
+  "name": "Advanced Drill",
+  "description": "A starter drill.",
+  "type": "Drill",
+  "size": 2,
+  "tier": 2,
+  "itemCapacity": 3,
+  "drillTime": 800,
+  "drawMineItem": true,
+  "squareSprite": false,
+  "requirements": [
+    {
+      "item": "basalt",
+      "amount": 5
+    }
+  ],
+  "category": "production",
+  "research": "core-office"
+}

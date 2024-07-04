@@ -1,0 +1,53 @@
+type: ItemTurret
+localizedName: Dissemination
+description: A tough shotgun for handeling stronger units, using principally heavy shotgun rounds made out of blast-compound
+requirements: [
+    basalt/20
+    silicon/50
+    titanium/25
+]
+size: 2
+range: 130
+health: 270
+targetAir: true
+targetGround: true
+shootSound: shotgun
+reload: 100
+inaccuracy: 8
+shoot: {
+        shots: 10
+} 
+ammoTypes: {
+ blast-compound:
+ {
+ type: BasicBulletType
+ speed: 8
+ width: 4
+ height: 6
+ damage: 30
+ lifetime: 100
+ trailWidth: 3
+ trailLength: 3
+ } 
+ surge-alloy:
+ {
+ type: BasicBulletType
+ speed: 6
+ width: 4
+ height: 6
+ damage: 33
+ lifetime: 70
+ trailWidth: 3
+ trailLength: 3
+ trailColor: fcc11e
+ frontColor: FFFFFF
+ backColor: fcc11e
+ lightningColor: fcc11e
+ lightning: 5
+ lightningLength: 3
+ lightningLengthRand: 9
+ lightningDamage: 10
+ } 
+}
+category: turret
+research: tyrant

@@ -1,0 +1,77 @@
+{
+        "type": "flying",
+        "localizedName": "Technician",
+	    "description": "???",
+        "speed": 1.5,
+        "accel": 0.1,
+        "drag": 0.05,
+		"mineSpeed": 10,
+        "mineTier": 3,
+        "buildSpeed": 1,
+        "flying": true,
+		"isEnemy": false,
+        "health": 950,
+        "armor": 1,
+        "engineOffset": 0,
+		"engineSize": 0,
+		"TargetAir": true,
+		"trailLength": 5,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+		"engines": [
+		  {
+			"x": -5
+			"y": -8
+			"radius": 3
+			"rotation": -90
+		  }
+		  {	
+			"x": 5
+			"y": -8
+			"radius": 3
+			"rotation": -90
+		  }
+		]
+	    "weapons": [
+			{
+				"name": "technician-gun",
+				"mirror": false,
+				"alternate": false,
+				"top": false,
+				"rotate": false,
+				"x": 0,
+				"y": 0,
+				"reload": 100,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+			"inaccuracy": 0
+			"recoil": 2,
+			"shootSound": "missileLarge",
+			"bullet": {
+				"type": "MissileBulletType",
+				"sprite": "missile-large",
+				"damage": 100,
+				"keepVelocity": "false",
+				"speed": 5,
+				"lifetime": 50,
+				"width": 17,
+				"height": 25,
+				"frontColor": "#ffd37f",
+				"backColor": "#FFFFFF",
+				"shrinkY": 0.5,
+				"trailLength": 10,
+				"trailWidth": 3,
+				"homingPower": 0.05,
+				"homingDelay": 10,
+				"trailColor": "#ffd37f",
+				"hitEffect": "blastExplosion",
+				"trailEffect": "missileTrail",
+				"trailInterval": 6,
+				"weaveMag": 4,
+				"weaveScale": 4,
+					}
+				}
+	]
+}

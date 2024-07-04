@@ -1,0 +1,72 @@
+{
+        "type": "flying",
+        "localizedName": "Laso",
+	    "description": "???",
+        "speed": 15,
+        "accel": 0.01,
+        "drag": 0.1,
+        "flying": true,
+        "health": 1000,
+        "armor": 2,
+        "engineOffset": 10,
+		"engineSize": 3,
+		"faceTarget": false,
+		"TargetAir": false,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+		"abilities": [
+		  {
+			"type": "EnergyFieldAbility",
+			"color": "66f27d",
+			"hitBuildings": true,
+			"hitUnits": true,
+			"damage": 10,
+			"healPercent": 5,
+			"blinkSize": 0.2,
+			"maxTargets": 1,
+			"reload": 30,
+			"range": 60,
+			"layerOffset": 1,
+			"targetAir": true,
+			"targetGround": true,
+		  }
+		]
+	    "weapons": [
+			{
+				"name": "",
+				"mirror": false,
+				"alternate": false,
+				"top": false,
+				"rotate": true,
+				"x": 0,
+				"y": 0,
+				"reload": 50,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+			"inaccuracy": 0
+			"recoil": 0,
+			"bullet": {
+				"type": "BasicBulletType",
+				"sprite": "large-bomb",
+				"damage": 50,
+				"healPercent": 5,
+				"keepVelocity": "false",
+				"speed": 0,
+				"spin": 2,
+				"lifetime": 40,
+				"width": 20,
+				"height": 20,
+				"backColor": "#66f27d",
+				"frontColor": "#FFFFFF",
+				"shrinkY": 0.5,
+				"shrinkX": 0.5,
+				"hitEffect": "blastExplosion",
+				"despawnEffect": "blastExplosion",
+				"shootEffect": "none",
+				"ejectEffect": "none",
+					}
+			}
+		]
+}

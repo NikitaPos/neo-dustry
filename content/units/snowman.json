@@ -1,0 +1,53 @@
+{
+        "type": "flying",
+        "localizedName": "Snowman",
+	    "description": "???",
+        "speed": 2,
+        "accel": 0.1,
+        "drag": 0.01,
+        "flying": true,
+        "health": 300,
+        "armor": 1,
+        "engineOffset": 4,
+		"engineSize": 2,
+		"TargetAir": true,
+        "circleTarget": true,
+        "outlineColor": "#2d2f39",
+	    "weapons": [
+			{
+				"name": "",
+				"mirror": false,
+				"alternate": false,
+				"top": false,
+				"rotate": false,
+				"x": 0,
+				"y": 3,
+				"reload": 40,
+				"shoot": {
+					"shots": 1,
+					"shotDelay": 0
+			}
+	"inaccuracy": 0
+    "shootSound": "iceblast",
+    "recoil": 10,
+    "bullet": {
+		"type": "BasicBulletType",
+		"sprite": "missile-large",
+        "damage": 25,
+	"keepVelocity": "true",
+	"speed": 10,
+	"lifetime": 30,
+	"width": 9,
+	"height": 16,
+        "backColor": "#00eeff",
+        "frontColor": "#FFFFFF",
+        "shrinkY": 0.5,
+        "trailLength": 4,
+        "trailColor": "#00eeff",
+		"trailEffect": "hitSquaresColor"
+        "trailRotation": true,
+        "trailInterval": 2,
+			}
+		}
+	]
+}
