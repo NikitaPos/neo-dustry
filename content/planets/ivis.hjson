@@ -130,7 +130,7 @@ icon: planet
 # Default core block for launch loadouts.
 defaultCore: core-office
 # The parent of the planet.
-parent: 
+parent: solarSystem
 # The parent of the whole solar system the planet is in. Affects lighting.
 solarSystem:
 # Possible planets that could be landed on from this planet.
